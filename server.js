@@ -5,7 +5,7 @@ var path = require("path");
 
 //Express app
 var app = express();
-var PORT = 3000;
+var PORT = process.env.PORT || 3000;
 
 
 // Middleware to handle data parsing
