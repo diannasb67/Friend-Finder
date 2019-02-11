@@ -87,11 +87,7 @@ var friends = [
         ]
     }];
 
-// console.log(friends);
+console.log(friends);
 
-for (var i = 0; i < friends.length.scores; i++) {
 
-    if (scores)
-}
-var user1 = friends.this[0];
-console.log(user1);
+
