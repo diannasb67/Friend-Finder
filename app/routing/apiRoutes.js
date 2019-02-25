@@ -7,7 +7,8 @@ app.get('/api/friends', function (req, res) {
 app.post('/api/friends', function (req, res) {
     var newfriends = req.body.friends;
     console.log(newfriends);
-    characters.push(newfriends);
+    friends.push(newfriends);
     res.json(friends);
 });
 
+module.exports = apiRoutes;

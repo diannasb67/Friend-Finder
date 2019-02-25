@@ -1,6 +1,7 @@
 
 
 // create friends variable
+
 var friends = [
     {
         "name": "John Smith",
@@ -87,7 +88,31 @@ var friends = [
         ]
     }];
 
-console.log(friends);
+friends.scores.valueOf();
+
+
+
+//possibly work on building a constructor??
+// var Person = function (name, photo, scores) {
+//     this.name = name;
+//     this.photo = photo;
+//     this.scores = function (add) {
+//         console.log(scores);
+//     }
+
+// }
+
+
+// var john = new Person('John, https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2Fthumb%2F5%2F53%2FSnoopy_Peanuts.png%2F200px-Snoopy_Peanuts.png&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSnoopy&docid=9jQ6C9Q4PwMmBM&tbnid=2uitkVze31f18M%3A&vet=10ahUKEwjn_PajkcHgAhXlsVQKHXjdCB8QMwhBKAEwAQ..i&w=200&h=272&bih=722&biw=1536&q=characters%20photos%20snoopy&ved=0ahUKEwjn_PajkcHgAhXlsVQKHXjdCB8QMwhBKAEwAQ&iact=mrc&uact=8, 
+// )
+
+// console.log(friends);
+
+
+
+
+module.exports = friends;
+
 
 
 
