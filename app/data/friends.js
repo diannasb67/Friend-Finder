@@ -88,7 +88,7 @@ var friends = [
         ]
     }];
 
-friends.scores.valueOf();
+// friends.scores.valueOf();
 
 
 

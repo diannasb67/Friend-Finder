@@ -1,14 +1,16 @@
-//GET request to display JSON of all possible friends
+// GET request to display JSON of all possible friends
 app.get('/api/friends', function (req, res) {
     res.json('friends');
 })
 
-// POST request handle incoming survey results.  
-app.post('/api/friends', function (req, res) {
-    var newfriends = req.body.friends;
-    console.log(newfriends);
-    friends.push(newfriends);
-    res.json(friends);
+//route new friend on server
+
+app.post("api/friends", function (req, res) {
+    var newfriend = req.body;
+    console.log(newfriend);
+    friends.push(newfriend);
+    res.join(newfriend);
+
 });
 
 module.exports = apiRoutes;
